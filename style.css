@@ -730,3 +730,55 @@ section{
 border-bottom:1px solid rgba(255,255,255,.05);
 
 }
+
+/*==========================
+Project / Certificate Buttons
+==========================*/
+
+.project-links{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+.project-btn{
+
+display:inline-block;
+
+padding:8px 20px;
+
+border:2px solid #38bdf8;
+
+border-radius:8px;
+
+color:#38bdf8;
+
+text-decoration:none;
+
+font-weight:600;
+
+font-size:15px;
+
+transition:.3s;
+
+}
+
+.project-btn:hover{
+
+background:#38bdf8;
+
+color:#0f172a;
+
+}
+
+.contact-card .project-links{
+
+justify-content:center;
+
+}
